@@ -1,0 +1,61 @@
+Nama   : Aditya Dwi Cahyo
+Kelas  : 4MIN
+NIM    : 062140832972
+
+PHP 7.0
+kelebihan :
+1.Peningkatan Kinerja: PHP 7.0 menghadirkan peningkatan signifikan dalam kinerja dibandingkan dengan PHP 5.x.
+2.Deklarasi Tipe: Fitur deklarasi tipe memungkinkan penggunaan tipe data skalar untuk parameter fungsi, membantu dalam mencegah kesalahan tipe data.
+
+kekurangan :
+1.Kompatibilitas Kode: Pembaruan ketat dalam tipe data dan pemutusan dukungan untuk beberapa fungsi yang sudah usang.
+
+php 7.1
+kelebihan
+1.Type Hinting pada Return Type: PHP 7.1 memungkinkan penggunaan tipe data untuk mendefinisikan jenis nilai yang diharapkan dikembalikan oleh fungsi.
+
+kekurangan
+1.    Keterbatasan Kompatibilitas: Seperti PHP 7.0, PHP 7.1 juga memiliki beberapa pemutusan dukungan untuk fungsi-fungsi usang, yang dapat mengganggu aplikasi yang ada.
+
+PHP 7.2
+Keunggulan:
+1.Fitur-Fitur Baru: PHP 7.2 memperkenalkan berbagai fitur baru, seperti fitur spaceship operator (<=>), fitur spread operator (unpacking), dan lain-lain.
+
+kekurangan
+
+1.Kompatibilitas dengan Kode Lama: Penggunaan fitur baru dapat mengharuskan perubahan dalam kode lama untuk menjaga kompatibilitas.
+
+PHP 7.3
+Keunggulan
+1.Herestring Syntax: PHP 7.3 memperkenalkan sintaksis Herestring yang memudahkan dalam menyusun string dengan beberapa baris.
+
+Kekurangan
+1.Kompatibilitas Terhadap Kode Lama: Seperti versi PHP sebelumnya, PHP 7.3 juga dapat menghadapi masalah kompatibilitas dengan kode lama.
+
+PHP 7.4
+kelebihan
+1.Fitur-Fitur Baru: PHP 7.4 membawa berbagai fitur baru, seperti fitur Arrow Functions, Typed Properties, dan Preloading.
+
+kekurangan
+2.Kompatibilitas dengan Kode Lama: Seperti versi sebelumnya, perlu memeriksa dan mengubah kode lama untuk menjaga kompatibilitas dengan PHP 7.4.
+
+PHP 8.0
+keunggulan 
+
+1.JSON extension always activated
+Di versi bahasa skrip yang lebih lama, ekstensi JSON memiliki opsi untuk dinonaktifkan. Karena JSON adalah format data yang penting, bagaimanapun, 
+pengembang PHP memutuskan untuk memastikan bahwa ekstensi diaktifkan setiap saat. Diasumsikan bahwa cara ini akan menyederhanakan bekerja dengan PHP.
+
+PHP 8.1
+
+1.Dukungan Just In Time (JIT) Lebih Baik
+PHP memperbaiki dukungan terhadap JIT Compiler. JIT memungkinkan program diterjemahkan menjadi bahasa yang dimengerti komputer, saat program berjalan secara real time.
+
+2.Performa lebih cepat
+Karena penambahan fungsi inheritance caching pada Opcache, performa lebih cepat. Inheritance caching menghubungkan berbagai jenis class, 
+lalu melakukan proses caching pada class secara bersamaan, hasil caching tersebut disimpan pada shared memory milik opcache.
+
+8.2
+Disjunctive Normal Form: Combined Unions and Intersections
+
+Union dan tipe interseksi sekarang dapat digabungkan di mana pun tipe diterima, seperti parameter fungsi dan nilai kembalian. Definisi tipe lengkap harus ditulis menggunakan boolean disjunctive normal form notation (DNF).
